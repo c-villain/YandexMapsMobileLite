@@ -1,18 +1,16 @@
 // swift-tools-version: 5.6
 // The swift-tools-version declares the minimum version of Swift required to build this package.
-
 import PackageDescription
 
 let package = Package(
-    name: "YandexMapsMobile",
+    name: "YandexMapsMobileLite",
     platforms: [
-        .iOS(.v11),
+        .iOS(.v12),
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "YandexMapsMobile",
-            type: .static,
             targets: ["YandexMapsMobile"]),
     ],
     dependencies: [
@@ -24,18 +22,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "YandexMapsMobile",
-            url: "https://github.com/c-villain/YandexMapsMobile/releases/download/4.0.0/YandexMapsMobile.xcframework.zip", checksum: "9c083507155e599e442679607c6d1b21404cd24853297d1633fd97e1d983ea5a"),
-        .target(
-                    name: "YandexMapsMobile",
-                    dependencies: [
-                        .target(name: "YandexMapsMobileBinary"),
-                    ],
-                    linkerSettings: [
-                        .linkedFramework("CoreLocation"),
-                        .linkedFramework("CoreTelephony"),
-                        .linkedFramework("SystemConfiguration"),
-                        .linkedLibrary("c++"),
-                        .unsafeFlags(["-ObjC"]),
-                    ]),
+            url: "https://github.com/c-villain/YandexMapsMobileLite/releases/download/4.1.0/YandexMapsMobile.xcframework.zip",
+            checksum: "7ed4a5b935343c5e025bc813b28eddf02fa4c11bd59f8652fc7db1798dd0dd8a"
+        ),
     ]
 )
