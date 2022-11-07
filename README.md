@@ -20,14 +20,14 @@ Yandex mobile maps full version you can find [here](https://github.com/c-villain
 To integrate YandexMapsMobile into your project using SwiftPM do this 👇🏻
 
 - File > Swift Packages > Add Package Dependency
-- Add `https://github.com/c-villain/YandexMapsMobile.git`
+- Add `https://github.com/c-villain/YandexMapsMobileLite.git`
 - Select "Up to Next Major" with "4.2.2"
 
 or add the following code to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/c-villain/YandexMapsMobile", from: "4.2.2"),
+    .package(url: "https://github.com/c-villain/YandexMapsMobileLite", from: "4.2.2"),
 ],
 ```
 or via [XcodeGen](https://github.com/yonaskolb/XcodeGen) insert into your `project.yml`:
@@ -39,7 +39,7 @@ options:
     iOS: 12.0
 packages:
   YandexMapsMobile:
-    url: https://github.com/c-villain/YandexMapsMobile
+    url: https://github.com/c-villain/YandexMapsMobileLite
     from: 4.2.2
 targets:
   YourTarget:
