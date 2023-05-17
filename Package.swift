@@ -22,8 +22,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "YandexMapsMobile",
-            url: "https://github.com/c-villain/YandexMapsMobileLite/releases/download/4.3.0/YandexMapsMobile.xcframework.zip",
-            checksum: "6a7bb8d1e52437deda04b6bb3c570d164ac2a881c3cb571e0e2a9429ed9cbe81"
+            url: "https://github.com/c-villain/YandexMapsMobileLite/releases/download/4.3.1/YandexMapsMobile.xcframework.zip",
+            checksum: "9bfb13051437f525b8cce99c96dc362af6e070a1fec3a8db966d33305b896529"
         ),
     ]
 )
