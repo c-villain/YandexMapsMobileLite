@@ -12,6 +12,8 @@ Binary Framework as Swift Package with Yandex mobile maps lite version.
 
 Yandex mobile maps full version you can find [here](https://github.com/c-villain/YandexMapsMobile).
 
+Yandex mobile maps NaviKit SDK version you can find [here](https://github.com/c-villain/YandexMapsMobileNaviKit).
+
 ## Requirements
 
 - iOS 12.0
