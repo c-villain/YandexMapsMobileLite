@@ -18,6 +18,10 @@ Yandex mobile maps NaviKit SDK version you can find [here](https://github.com/c-
 
 - iOS 12.0
 
+## Recommedations to use
+
+For more details look [here](https://github.com/c-villain/YandexMapsMobile#recommedations-to-use).
+
 ## Swift Package Manager
 
 To integrate YandexMapsMobileLite into your project using SwiftPM do this 👇🏻
@@ -51,10 +55,6 @@ targets:
     dependencies:
        - package: YandexMapsMobile
 ```
-
-## Recommedations to use
-
-For more details look [here](https://github.com/c-villain/YandexMapsMobile#recommedations-to-use).
 
 ## Communication
 
