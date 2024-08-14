@@ -52,6 +52,10 @@ targets:
        - package: YandexMapsMobile
 ```
 
+## Recommedations to use
+
+For more details look [here](https://github.com/c-villain/YandexMapsMobile#recommedations-to-use).
+
 ## Communication
 
 👨🏻‍💻 Feel free to subscribe to channel **[SwiftUI dev](https://t.me/swiftui_dev)** in telegram.
