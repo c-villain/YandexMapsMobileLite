@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "YandexMapsMobileLite",
     platforms: [
-        .iOS(.v12),
+        .iOS(.v13),
     ],
     products: [
         .library(
@@ -17,8 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "YandexMapsMobile",
-            url: "https://github.com/c-villain/YandexMapsMobileLite/releases/download/4.8.0/YandexMapsMobile.xcframework.zip",
-            checksum: "a7e2feb548db2d34f8220bc75ec4aa2a38a3599d0bdecfd9d213dc65c5da0417"
+            url: "https://github.com/c-villain/YandexMapsMobileLite/releases/download/4.8.1/YandexMapsMobile.xcframework.zip",
+            checksum: "9758090bfc2fd7f92c994c4c4382ca541ddb51194f805d55770876e15a2f8756"
         ),
     ]
 )
