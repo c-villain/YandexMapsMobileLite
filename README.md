@@ -1,5 +1,16 @@
 # YandexMapsMobileLite
 
+# ⚠️ ARCHIVED — USE OFFICIAL YANDEX MAPKIT SPM
+
+Yandex has added **official Swift Package Manager support** for MapKit.
+
+➡️ **Please use the official SDK instead:**  
+https://github.com/yandex/mapkit-ios-lite 
+
+This repository will **not receive updates, fixes, or new releases**.
+
+---
+
 [![Latest release](https://img.shields.io/github/v/release/c-villain/YandexMapsMobileLite?color=brightgreen&label=version)](https://github.com/c-villain/YandexMapsMobileLite/releases/latest)
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fc-villain%2FYandexMapsMobileLite%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/c-villain/YandexMapsMobileLite)
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fc-villain%2FYandexMapsMobileLite%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/c-villain/YandexMapsMobileLite)
